@@ -12,3 +12,5 @@ https://learn.microsoft.com/en-us/exchange/architecture/mailbox-servers/mrs-prox
 
 %AppData%\Microsoft\Exchange Hybrid Configuration
 
+https://learn.microsoft.com/en-us/exchange/hybrid-configuration-wizard#hybrid-deployment-configuration-changes
+
