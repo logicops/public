@@ -7,3 +7,5 @@ https://learn.microsoft.com/en-us/mem/intune/enrollment/connect-intune-android-e
 https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/klist
 
 https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/maximum-lifetime-for-user-ticket-renewal
+
+https://learn.microsoft.com/en-us/exchange/architecture/mailbox-servers/mrs-proxy-endpoint?view=exchserver-2019#use-the-eac-to-enable-the-mrs-proxy-endpoint
