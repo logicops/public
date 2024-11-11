@@ -17,4 +17,4 @@ https://learn.microsoft.com/en-us/exchange/hybrid-configuration-wizard#hybrid-de
 https://learn.microsoft.com/en-us/microsoft-365-apps/admin-center/overview-cloud-policy#troubleshooting-tips
 
 https://admin.microsoft.com/Adminportal/Home#/dirsyncmanagement
-
+https://learn.microsoft.com/en-us/microsoft-365/enterprise/view-account-license-and-service-details-with-microsoft-365-powershell?view=o365-worldwide
