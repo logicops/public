@@ -16,3 +16,5 @@ https://learn.microsoft.com/en-us/exchange/hybrid-configuration-wizard#hybrid-de
 
 https://learn.microsoft.com/en-us/microsoft-365-apps/admin-center/overview-cloud-policy#troubleshooting-tips
 
+https://admin.microsoft.com/Adminportal/Home#/dirsyncmanagement
+
