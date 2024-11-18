@@ -28,3 +28,6 @@ This year, I have significantly advanced my knowledge in cloud infrastructure, d
 Pursue more certifications [AI Focused]: Obtaining industry-recognized certifications will deepen my technical proficiency and ensure alignment with current best practices.
 Engage in Cross-Functional Collaboration: Working closely with other departments [Pro-serve team, for example] will provide a holistic understanding of our partners’ needs, allowing for more tailored and effective solutions.
 Helping Team Members: Sharing knowledge and experiences with colleagues will foster a culture of continuous learning and collective growth within the team.
+
+My ultimate goal in the cloud services space is to achieve proficiency in solution design and delivery, with the aim of securing a role as a Solutions Engineer within the company. To achieve this, I plan to actively engage with the Professional Services team, as I believe collaboration with them provides the right pathway to develop the necessary skills and experience. This focused effort will allow me to deepen my understanding of solution services while increasing my overall impact on the organisation.
+
