@@ -19,3 +19,6 @@ https://learn.microsoft.com/en-us/microsoft-365-apps/admin-center/overview-cloud
 https://admin.microsoft.com/Adminportal/Home#/dirsyncmanagement
 https://learn.microsoft.com/en-us/microsoft-365/enterprise/view-account-license-and-service-details-with-microsoft-365-powershell?view=o365-worldwide
 https://learn.microsoft.com/en-us/troubleshoot/azure/virtual-machines/windows/troubleshoot-activation-problems#troubleshoot-windows-activation-issues
+
+Reflecting on this year’s achievements, I have significantly enhanced my technical skills, enabling me to provide high-quality support to our customers. My commitment to excellence is evident in my proactive assistance to team members, fostering a collaborative environment. These efforts have directly contributed to our business objectives by improving customer satisfaction and team efficiency, embodying our company’s core values of excellence, customer focus, and teamwork.
+
