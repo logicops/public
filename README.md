@@ -23,3 +23,8 @@ https://learn.microsoft.com/en-us/troubleshoot/azure/virtual-machines/windows/tr
 Reflecting on this year’s achievements, I have significantly enhanced my technical skills, enabling me to provide high-quality support to our customers. My commitment to excellence is evident in my proactive assistance to team members, fostering a collaborative environment. These efforts have directly contributed to our business objectives by improving customer satisfaction and team efficiency, embodying our company’s core values of excellence, customer focus, and teamwork.
 
 This year, I have significantly advanced my knowledge in cloud infrastructure, driven by a strong passion and keen interest in this field. This development has enabled me to enhance the quality of service I provide to our partners, aligning with our company’s commitment to excellence and innovation.
+
+
+Pursue more certifications [AI Focused]: Obtaining industry-recognized certifications will deepen my technical proficiency and ensure alignment with current best practices.
+Engage in Cross-Functional Collaboration: Working closely with other departments [Pro-serve team, for example] will provide a holistic understanding of our partners’ needs, allowing for more tailored and effective solutions.
+Helping Team Members: Sharing knowledge and experiences with colleagues will foster a culture of continuous learning and collective growth within the team.
