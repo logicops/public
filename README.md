@@ -31,3 +31,7 @@ Helping Team Members: Sharing knowledge and experiences with colleagues will fos
 
 My ultimate goal in the cloud services space is to achieve proficiency in solution design and delivery, with the aim of securing a role as a Solutions Engineer within the company. To achieve this, I plan to actively engage with the Professional Services team, as I believe collaboration with them provides the right pathway to develop the necessary skills and experience. This focused effort will allow me to deepen my understanding of solution services while increasing my overall impact on the organisation.
 
+Abraham has significantly enhanced our team’s productivity since joining us. He has introduced several innovative ideas to improve our daily operations. Notably, he proposed creating a dedicated channel to facilitate team collaboration, enabling members to pair up, discuss challenging cases, and exchange resolution strategies.
+
+Additionally, Abraham has demonstrated a keen interest in Microsoft Azure. His enthusiasm for expanding our team’s expertise in infrastructure engineering fosters a culture of mutual support and continuous improvement, contributing positively to our team’s progress in managing our infrastructure stack.
+
