@@ -35,3 +35,5 @@ Abraham has significantly enhanced our team’s productivity since joining us. H
 
 Additionally, Abraham has demonstrated a keen interest in Microsoft Azure. His enthusiasm for expanding our team’s expertise in infrastructure engineering fosters a culture of mutual support and continuous improvement, contributing positively to our team’s progress in managing our infrastructure stack.
 
+Abraham has consistently demonstrated exceptional teamwork. On multiple occasions, during my absence, he proactively managed my open tickets, ensuring our partners received timely updates. Despite his primary expertise in productivity, he adeptly handled infrastructure-related issues, reflecting his versatility and commitment to the team’s success. I greatly appreciate Abraham’s dedication and support.
+
