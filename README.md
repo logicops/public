@@ -39,4 +39,21 @@ Abraham has consistently demonstrated exceptional teamwork. On multiple occasion
 
 Abraham has been instrumental to our team, consistently offering assistance and guidance on infrastructure issues. For instance, when I encountered uncertainty regarding a specific process, he promptly joined a call to discuss the matter in detail, providing clear insights that led to a timely resolution of the support case. His proactive support prevented potential delays and significantly contributed to the efficiency of our operations.
 
+To establish Address Resolution Protocol (ARP) for your Azure ExpressRoute connection, it’s essential to ensure proper Layer 2 connectivity and configuration between your on-premises network and Microsoft’s network. Microsoft provides detailed guidance on this process in their official documentation.
 
+Key Steps to Establish ARP:
+	1.	Verify Physical and Layer 2 Connectivity:
+	•	Ensure that the physical link between your on-premises router and the ExpressRoute provider is operational.
+	•	Confirm that interfaces are up and there are no errors.
+	2.	Configure VLANs and IP Addresses:
+	•	Assign appropriate VLAN IDs and IP addresses for each peering type (Azure Private or Microsoft).
+	•	Ensure that the IP addresses and subnets align with Microsoft’s requirements.
+	3.	Check ARP Tables:
+	•	Use the Azure portal or PowerShell to view the ARP tables for your ExpressRoute circuit.
+	•	Verify that the ARP table entries correspond to the expected IP and MAC addresses.
+
+For comprehensive instructions and examples, refer to Microsoft’s official documentation on troubleshooting ARP tables for ExpressRoute:
+
+￼
+
+This resource provides detailed steps to validate Layer 2 configurations and troubleshoot ARP-related issues in your ExpressRoute setup.
