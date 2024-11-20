@@ -54,6 +54,6 @@ Key Steps to Establish ARP:
 
 For comprehensive instructions and examples, refer to Microsoft’s official documentation on troubleshooting ARP tables for ExpressRoute:
 
-￼
+￼https://learn.microsoft.com/en-us/azure/expressroute/expressroute-troubleshooting-arp-resource-manager?utm_source=chatgpt.com
 
 This resource provides detailed steps to validate Layer 2 configurations and troubleshoot ARP-related issues in your ExpressRoute setup.
