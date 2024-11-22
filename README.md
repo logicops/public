@@ -59,3 +59,64 @@ For comprehensive instructions and examples, refer to Microsoft’s official doc
 This resource provides detailed steps to validate Layer 2 configurations and troubleshoot ARP-related issues in your ExpressRoute setup.
 
 Get-AzExpressRouteCircuitARPTable -ResourceGroupName <ResourceGroup> -ExpressRouteCircuitName <CircuitName> -PeeringType AzurePrivatePeering -DevicePath Primary
+When attempting to map an Azure file share from a storage account enabled with Microsoft Entra ID Domain Services and encountering a “password is not correct” error, it’s essential to collect and analyze specific logs to diagnose the issue effectively. Here’s a structured approach to gather the necessary information:
+
+1. Client-Side Logs:
+	•	Event Viewer Logs:
+	•	Open the Event Viewer on your device.
+	•	Navigate to Windows Logs > Security.
+	•	Look for Event ID 4625, which indicates failed logon attempts.
+	•	Examine the Failure Reason and Status fields for details.
+	•	Command Prompt Output:
+	•	Open Command Prompt and execute:
+
+net use * \\<storageaccountname>.file.core.windows.net\sharename /user:<domain\username> *
+
+
+	•	Replace <storageaccountname>, sharename, and <domain\username> with your specific details.
+	•	Note any error messages returned.
+
+2. Azure Storage Account Logs:
+	•	Azure Storage Analytics Logs:
+	•	In the Azure portal, navigate to your storage account.
+	•	Under Monitoring, select Diagnostics settings.
+	•	Ensure that ‘File’ logging is enabled.
+	•	Access the logs to review authentication attempts and errors.
+
+3. Microsoft Entra Domain Services Logs:
+	•	Sign-In Logs:
+	•	In the Azure portal, go to Microsoft Entra ID > Monitoring & health > Sign-in logs.
+	•	Filter logs by the specific user experiencing the issue.
+	•	Look for failed sign-in attempts and review the Status and Failure reason fields.
+
+4. Network Connectivity Checks:
+	•	Port Connectivity:
+	•	Ensure that port 445 is open and accessible, as it’s required for SMB traffic.
+	•	Use the following command to test connectivity:
+
+Test-NetConnection -ComputerName <storageaccountname>.file.core.windows.net -Port 445
+
+
+	•	Verify that the test returns a successful connection.
+
+5. Azure Files Troubleshooting Tools:
+	•	AzFileDiagnostics:
+	•	Download and run the AzFileDiagnostics script on your client machine.
+	•	This tool checks for common configuration issues and provides guidance on fixes.
+	•	Debug-AzStorageAccountAuth Cmdlet:
+	•	Install the AzFilesHybrid PowerShell module.
+	•	Run the following command:
+
+Debug-AzStorageAccountAuth -StorageAccountName <StorageAccountName> -ResourceGroupName <ResourceGroupName> -Verbose
+
+
+	•	This cmdlet performs checks on your Active Directory configuration and provides guidance for any failures. ￼
+
+6. Additional Considerations:
+	•	Password Hash Synchronization:
+	•	Ensure that password hash synchronization is enabled and functioning correctly between your on-premises Active Directory and Microsoft Entra ID.
+	•	Verify that the user has recently changed their password to generate the necessary NTLM or Kerberos password hashes required for authentication. ￼
+	•	Kerberos Encryption Types:
+	•	Confirm that the storage account is configured to use the appropriate Kerberos encryption types, such as AES-256, to align with your domain’s settings. ￼
+
+By systematically collecting and analyzing these logs and outputs, you can identify the root cause of the authentication error and implement the necessary corrective actions.
