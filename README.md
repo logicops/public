@@ -118,5 +118,5 @@ https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-appo
 	•	Verify that the user has recently changed their password to generate the necessary NTLM or Kerberos password hashes required for authentication. ￼
 	•	Kerberos Encryption Types:
 	•	Confirm that the storage account is configured to use the appropriate Kerberos encryption types, such as AES-256, to align with your domain’s settings. ￼
-
+https://www.kyoceradocumentsolutions.us/en/products/software/MICROSOFTCONNECTOR.html?utm_source=chatgpt.com
 By systematically collecting and analyzing these logs and outputs, you can identify the root cause of the authentication error and implement the necessary corrective actions.
