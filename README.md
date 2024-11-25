@@ -108,7 +108,7 @@ Test-NetConnection -ComputerName <storageaccountname>.file.core.windows.net -Por
 	•	Run the following command:
 
 Debug-AzStorageAccountAuth -StorageAccountName <StorageAccountName> -ResourceGroupName <ResourceGroupName> -Verbose
-
+https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azuread
 
 	•	This cmdlet performs checks on your Active Directory configuration and provides guidance for any failures. ￼
 
