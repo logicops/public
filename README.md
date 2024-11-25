@@ -111,7 +111,7 @@ Debug-AzStorageAccountAuth -StorageAccountName <StorageAccountName> -ResourceGro
 https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azuread
 
 	•	This cmdlet performs checks on your Active Directory configuration and provides guidance for any failures. ￼
-
+Set-MsolUser -UserPrincipalName "user@domain.com" -ImmutableId $null
 6. Additional Considerations:
 	•	Password Hash Synchronization:
 	•	Ensure that password hash synchronization is enabled and functioning correctly between your on-premises Active Directory and Microsoft Entra ID.
