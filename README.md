@@ -1,3 +1,11 @@
+
+Install-Script -Name Get-WindowsAutoPilotInfo -Force
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
+
+
+Get-WindowsAutoPilotInfo -OutputFile C:\AutoPilotHWID.csv
+
+
 # public
 public
 az storage account list --query "[?sku.name=='Standard_GRS' || sku.name=='Standard_RAGRS'].{Name:name, ResourceGroup:resourceGroup, Sku:sku.name}" -o table
